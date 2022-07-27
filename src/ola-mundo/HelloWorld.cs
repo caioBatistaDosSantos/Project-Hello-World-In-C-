@@ -6,6 +6,6 @@ public class HelloWorld
 {
     public static string Greet()
     {
-        throw new notImplementedException();        
+        throw new NotImplementedException();        
     }
 }    

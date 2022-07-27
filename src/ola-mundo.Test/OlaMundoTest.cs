@@ -16,11 +16,13 @@ public class OlaMundoTest
         {
             Console.SetOut(NewOutput);
 
-            Message.PrintMsg();
+            var expect = Message.PrintMsg();
 
             string result = NewOutput.ToString().Trim();
 
-            result.Should().Be(Expected);      
-        }                    
+            result.Should().Be(Expected);
+
+            expect.Should().Be(Expected); 
+        }
     }
 }

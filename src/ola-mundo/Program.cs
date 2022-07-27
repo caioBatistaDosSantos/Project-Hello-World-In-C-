@@ -1,8 +1,12 @@
 ﻿namespace ola_mundo;
 public class Message
 {
-    public static void PrintMsg()
+    public static void Main() {}
+
+    public static string PrintMsg()
     {
-        Console.WriteLine("Olá, Mundo!");
+        string Message = "Olá, Mundo!";
+        Console.WriteLine(Message);
+        return Message;
     }
 }
